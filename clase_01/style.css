@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+  background-color:  #14427a;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 250px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.modulo-conversion{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+form{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20%;
+  color: #fff;
+}
+
+.form h3{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form label{
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+.boton{
+  display: block;
+  background-color: #068658;
+  font-weight: bold;
+  color: #000;
+  border-color: #0e473e ;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0.5rem auto;
+}
+
+.boton:hover{
+  background-color:  #04c66a ;
+}
+
+#convirtiendo{
+  width: 100%;
+  color: #fff;
+}

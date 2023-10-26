@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.modulo-listado{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+form{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20%;
+  color: #fff;
+}
+
+.form h3{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form label{
+  width: 100%;
+  margin: 0.5rem auto;
+}
+.contenedor-boton{
+  width: 100%;
+}
+.boton{
+  display: block;
+  background-color: #068658;
+  font-weight: bold;
+  color: #000;
+  border-color: #0e473e ;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0.5rem auto;
+}
+
+.boton:hover{
+  background-color:  #04c66a ;
+}
+
+.carrusel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrusel-items {
+  width: 50%;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 30px 0px;
+}
+
+.carrusel-item {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.carrusel-item img {
+  width: 90%;
+  /*object-fit: cover;*/
+}
+
+.carrusel-item:hover {
+  transform: scale(1.2);
+}*/
